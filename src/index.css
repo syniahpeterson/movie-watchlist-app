@@ -1,0 +1,26 @@
+/* Minimal reset for the movie-watchlist app */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body {
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    Roboto,
+    Helvetica,
+    Arial;
+  background: transparent;
+}
+#root {
+  min-height: 100vh;
+}
