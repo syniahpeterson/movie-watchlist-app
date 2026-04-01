@@ -223,6 +223,10 @@ export default function App() {
     return true;
   });
 
+  useEffect(() => {
+    document.title = "Movie Watchlist";
+  }, []);
+
   return (
     <div className="movie-app">
       <h1 className="app-title">Movie Watchlist</h1>
